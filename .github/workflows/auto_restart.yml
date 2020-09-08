@@ -1,6 +1,5 @@
 name: IBM Cloud Auto Restart
 
-
 on:
 #  push:
 #    branches: [ master ]
@@ -9,7 +8,7 @@ on:
   schedule:
     - cron: 0 4 * * 5
 #  watch:
-##    types: [started]
+#    types: [started]
 
 jobs:
   ibm-cloud-restart:
