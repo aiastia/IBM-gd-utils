@@ -1,7 +1,6 @@
 name: IBM Cloud Auto Restart
 
 on:
-  schedule:
 
   workflow_dispatch:
     inputs:
